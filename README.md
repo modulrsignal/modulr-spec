@@ -74,6 +74,7 @@ See `docs/public-spec/ownership-model.md` for the full layer boundary definition
 ## Specification Documents
 
 **Start here:**
+- [`docs/public-spec/ECOSYSTEM_PLACEMENT.md`](docs/public-spec/ECOSYSTEM_PLACEMENT.md) — supply intelligence chain and ecosystem placement
 - [`docs/public-spec/non-goals.md`](docs/public-spec/non-goals.md)
 - [`docs/public-spec/descriptor-principles.md`](docs/public-spec/descriptor-principles.md)
 
