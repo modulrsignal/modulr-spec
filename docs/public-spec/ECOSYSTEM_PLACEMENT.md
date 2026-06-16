@@ -1,9 +1,7 @@
 # Supply Intelligence and the Agent Ecosystem
 
-**Status:** §225 Draft — pending cold-read validation
-**Target:** `docs/public-spec/ECOSYSTEM_PLACEMENT.md` (modulr-spec)
-**Sprint:** §225 — Agent Ecosystem Placement
-**Created:** 2026-06-15
+**Status:** Draft
+**Last updated:** 2026-06-15
 
 ---
 
@@ -166,4 +164,5 @@ Modulr exists to make media supply discoverable, understandable, trustworthy, an
 
 ---
 
-*This document is a draft pending cold-read validation. Canonical doctrine (MODULR_SOURCE_OF_TRUTH.md, FOUR_LAYER_ARCHITECTURE.md) is unchanged until validation is complete.*
+
+
