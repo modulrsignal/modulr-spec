@@ -46,12 +46,40 @@ It describes inventory. It does not price, negotiate, activate, or execute.
 
 ---
 
+## Descriptor Architecture
+
+```
+                    Supply Descriptor
+
+                          │
+
+           ┌──────────────┼──────────────┐
+
+           │              │              │
+
+       Identity       Semantics        Trust
+
+                          │
+
+               Topics · Intent Signals
+
+                          │
+
+          Ownership · Provenance · Confidence
+```
+
+Identity answers: what is being described.
+Semantics answers: what the supply means and what it enables.
+Trust answers: who asserts it, where it came from, and how certain it is.
+
+---
+
 ## What This Specification Covers
 
 - **Identity** — how a descriptor instance is addressed and versioned
 - **Provenance** — origin declaration for every signal
 - **Topics** — structured content classification using a defined taxonomy
-- **Intent Signals** — commercial consideration state the content may carry
+- **Intent Signals** — commercial reasoning capabilities the supply structurally affords to autonomous systems
 - **Suitability** — brand safety tier derived from content analysis
 - **Confidence** — degree of certainty in descriptor-level classifications
 - **Freshness** — elapsed time between signal generation and consumption
@@ -77,6 +105,7 @@ See `docs/public-spec/ownership-model.md` for the full layer boundary definition
 - [`docs/public-spec/ECOSYSTEM_PLACEMENT.md`](docs/public-spec/ECOSYSTEM_PLACEMENT.md) — supply intelligence chain and ecosystem placement
 - [`docs/public-spec/non-goals.md`](docs/public-spec/non-goals.md)
 - [`docs/public-spec/descriptor-principles.md`](docs/public-spec/descriptor-principles.md)
+- [`docs/public-spec/why-descriptors.md`](docs/public-spec/why-descriptors.md) — why supply descriptors differ from metadata
 
 **Ownership and identity:**
 - [`docs/public-spec/ownership-model.md`](docs/public-spec/ownership-model.md)
@@ -86,12 +115,27 @@ See `docs/public-spec/ownership-model.md` for the full layer boundary definition
 - [`docs/public-spec/provenance-model.md`](docs/public-spec/provenance-model.md)
 - [`docs/public-spec/confidence-model.md`](docs/public-spec/confidence-model.md)
 
+**Intent signals:**
+
+- [`docs/public-spec/intent-signal-model.md`](docs/public-spec/intent-signal-model.md)
+- [`docs/public-spec/intent-taxonomy.md`](docs/public-spec/intent-taxonomy.md)
+
 **Protocol alignment:**
 - [`docs/public-spec/adcp-alignment.md`](docs/public-spec/adcp-alignment.md)
 - [`docs/public-spec/prebid-alignment.md`](docs/public-spec/prebid-alignment.md)
 
-**Schema definitions and example payloads:**
-Coming in the first public schema release.
+**Interoperability:**
+
+- [`interoperability/README.md`](interoperability/README.md)
+- [`interoperability/adcp.md`](interoperability/adcp.md)
+- [`interoperability/prebid.md`](interoperability/prebid.md)
+- [`interoperability/seller-agent.md`](interoperability/seller-agent.md)
+- [`interoperability/buyer-agent.md`](interoperability/buyer-agent.md)
+
+**Examples:**
+
+- [`examples/podcast-episode-descriptor.v0.1.json`](examples/podcast-episode-descriptor.v0.1.json)
+- [`examples/streaming-video-descriptor.v0.1.json`](examples/streaming-video-descriptor.v0.1.json) *(illustrative — not current production coverage)*
 
 ---
 
@@ -108,23 +152,33 @@ Publisher-native. Protocol-ready. Neutral by design.
 
 ## Status
 
-**Version:** Draft — foundational specification in progress  
-**Schema:** Not yet published  
+**Version:** Draft — Public Specification v1 in progress
+**Schema:** Draft schema coming in the first public schema release
 **Public review:** Early visibility; formal review begins after completion of the foundational specification packet
 
-The specification is under active development.
+---
 
-Complete:
+**Complete:**
+
 - Descriptor Principles
 - Ownership Model
 - Identity Model
 - Provenance Model
 - Confidence Model
+- Ecosystem Placement
+- Intent Signal Model
+- Intent Taxonomy
+- Why Descriptors
 
-In progress:
-- Intent Signals
-- Suitability
-- Governance
+**In progress:**
+
+- Suitability Model
+- Governance Model
+- JSON Schema
+
+---
+
+**Illustrative examples available in `/examples`.**
 
 ---
 
