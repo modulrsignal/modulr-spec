@@ -1,0 +1,47 @@
+{
+  "_spec_version": "0.1",
+  "_descriptor_version": "v3",
+  "_note": "Illustrative example. Field values are fictional.",
+  "identity": {
+    "descriptor_id": "desc_pc_example_001",
+    "source_type": "podcast",
+    "collection": {
+      "title": "The Finance Hour",
+      "publisher": "Example Media"
+    },
+    "installment": {
+      "title": "Index Funds vs. Active Management: The Evidence",
+      "episode_id": "ep_example_001",
+      "duration_seconds": 2640
+    }
+  },
+  "provenance": {
+    "primary_source": "transcript",
+    "transcript_available": true,
+    "status": "complete"
+  },
+  "topics": [
+    "personal_finance",
+    "investing"
+  ],
+  "intent_signals": [
+    {
+      "primitive": "comparative_evaluation",
+      "confidence": 0.93
+    },
+    {
+      "primitive": "decision_support",
+      "confidence": 0.88
+    }
+  ],
+  "suitability": {
+    "tier": "tier_1",
+    "brand_safety_flags": []
+  },
+  "confidence": {
+    "descriptor_confidence": 0.91
+  },
+  "freshness": {
+    "generated_at": "2026-06-26T00:00:00Z"
+  }
+}

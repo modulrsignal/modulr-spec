@@ -1,0 +1,43 @@
+{
+  "_spec_version": "0.1",
+  "_descriptor_version": "v3",
+  "_note": "Illustrative example. This example demonstrates how the specification applies to streaming video inventory. It is not intended to represent current production coverage. Field values are fictional.",
+  "identity": {
+    "descriptor_id": "desc_sv_example_001",
+    "source_type": "fast",
+    "collection": {
+      "title": "Planet Earth: Recovery Series",
+      "publisher": "Example Streaming"
+    },
+    "installment": {
+      "title": "Coral Reef Recovery",
+      "episode_id": "ep_sv_example_001",
+      "duration_seconds": 3180
+    }
+  },
+  "provenance": {
+    "primary_source": "transcript",
+    "transcript_available": true,
+    "status": "complete"
+  },
+  "topics": [
+    "environment_and_sustainability",
+    "science_and_technology"
+  ],
+  "intent_signals": [
+    {
+      "primitive": "skill_development",
+      "confidence": 0.81
+    }
+  ],
+  "suitability": {
+    "tier": "tier_1",
+    "brand_safety_flags": []
+  },
+  "confidence": {
+    "descriptor_confidence": 0.87
+  },
+  "freshness": {
+    "generated_at": "2026-06-26T00:00:00Z"
+  }
+}
