@@ -49,10 +49,10 @@ a defined taxonomy. Topic classification is distinct from intent classification
 and must not be conflated with it.
 
 **Intent Signals**
-what commercial reasoning objectives the supply can support, expressed using the Modulr intent taxonomy
-Intent is not a topic. Intent is not a sentiment. Intent is a structured
-assessment of the types of commercial objectives this content may be
-relevant to, expressed using the Modulr intent taxonomy.
+What commercial reasoning objectives the supply can support, expressed
+using the Modulr intent taxonomy. Intent is not a topic. Intent is not
+a sentiment. Intent is a structured assessment of the types of commercial
+objectives the supply can support for an autonomous system.
 
 **Suitability**
 Brand safety tier and distribution across the episode set.
