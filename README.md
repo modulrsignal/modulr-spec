@@ -7,7 +7,7 @@ Modulr Supply Descriptor Contract
 Modulr defines how advertising supply is understood before execution.
 
 The Modulr Supply Descriptor Contract is a machine-readable specification
-for describing advertising inventory, content context, commercial intent,
+for describing advertising inventory, content context, commercial reasoning capability,
 suitability, provenance, and confidence in a protocol-neutral format.
 
 ---
